@@ -1,0 +1,65 @@
+.software {
+    display: flex;
+    justify-content: center;
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        width: 64.5rem;
+    }
+
+    &__workflow {
+        margin-top: 3rem;
+    }
+    &__structure {
+        margin-top: 2rem;
+    }
+
+    &__workflow,
+    &__structure {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__text {
+        margin-top: 2.7rem;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        color: $color-dark;
+    }
+}
+
+.wrapper_software {
+    margin-top: 52.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+$color-diamond: 
+#FED8FF;
+$color-bag: 
+#C4F5C9;
+
+.diamond-bg, .bag-bg {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diamond-bg {
+    background: $color-diamond;
+}
+
+.bag-bg {
+    background: $color-bag;
+}
+
+.workflow__text, .structure__text {
+    padding-left: 2rem;
+    // display: flex;
+    // flex-direction: column;
+}

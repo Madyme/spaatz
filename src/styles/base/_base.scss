@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+$color-dark: #1B2534;
+$color-main: #29A0F5;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+   font-weight: 700;
+   color: $color-dark; 
+   text-transform: capitalize;
+   font-size: 8rem;
+   line-height: 10.4rem;
+   text-align: center;
+   margin-top: 14.7rem;
+}
+
+.span {
+    color: $color-main;
+}
+
+h2 {
+    font-weight: 700;
+    color: $color-dark;
+    font-size: 6.5rem;
+    text-transform: capitalize;
+    line-height: 7.8rem;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4.2rem;
+    color: $color-dark;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4.55rem;
+    color: $color-dark;
+}

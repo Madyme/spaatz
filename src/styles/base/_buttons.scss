@@ -1,0 +1,40 @@
+$color-light: #ffffff;
+$color-dark: #1B2534;
+
+.button {
+    height: 7.2rem;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.button_header {
+    background: $color-dark;
+    border-radius: 1.7rem;
+    padding: 0 3.1rem 0 3.1rem;
+
+    &>span {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        color: $color-light;
+        
+    }
+}
+
+.button_dashboard {
+    color: $color-light;
+    border-radius: 2rem;
+    padding: 0 1.7rem 0 3.6rem;
+    margin-top: 12rem;
+    border: none;
+
+    &__name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: $color-dark;
+        margin-right: 1.9rem;
+    }
+
+}

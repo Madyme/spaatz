@@ -1,0 +1,36 @@
+
+header {
+    background: url(../../../src/assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.wrapper {
+    width: 134.0rem;
+}
+
+.wrapper_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 70.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #1B2534;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.8rem;
+}
