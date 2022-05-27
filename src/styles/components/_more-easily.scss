@@ -1,4 +1,7 @@
+$color-additional: #f6f6f6;
+
 .more-easily {
+    background: $color-additional;
     display: flex;
     justify-content: center;
     margin-top: 16rem;
@@ -52,8 +55,35 @@
     justify-content: center;
 }
 
-.tools-2__tool {
-    width: 4.6rem;
-    height: 4.4rem;
-    border-radius: 0.3rem;
+.tools-2 {
+    padding: 4rem 4rem 4.8rem 4rem;
+    background: #ffffff;
+    border-radius: 2rem;
+
+    &>div {
+
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+
+    &__tool {
+
+        width: 4.6rem;
+        height: 4.4rem;
+        border-radius: 0.3rem;
+    }
+}
+
+.graph {
+    background: $color-graph;
+    border-radius: 3.3rem;
+    display: flex;
+
+    &__article {
+        background: $color-graph;;
+        border-radius: 0 3.3rem 3.3rem 0;
+        margin-top: 4rem;
+        padding-right: 4.9rem;
+    }
 }

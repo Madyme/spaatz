@@ -1,5 +1,11 @@
 $color-light: #ffffff;
 $color-dark: #1B2534;
+$color-image: #FFD772;
+$color-audio: #C038CC;
+$color-video: #88A2FF;
+$color-gif: #AEEA7F;
+$color-graph: #161D2D;
+
 
 .button {
     height: 7.2rem;
@@ -17,7 +23,7 @@ $color-dark: #1B2534;
         font-size: 1.8rem;
         line-height: 2.5rem;
         color: $color-light;
-        
+
     }
 }
 
@@ -38,3 +44,49 @@ $color-dark: #1B2534;
     }
 
 }
+
+.tool {
+    &-1 {
+        background: $color-image;
+    }
+
+    &-2 {
+        background: $color-audio;
+    }
+
+    &-3 {
+        background: $color-video;
+    }
+
+    &-4 {
+        background: $color-gif;
+    }
+}
+
+.graph {
+
+    &__title {
+
+        color: $color-light;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 4.6rem;
+        text-align: right;
+    }
+
+    &__button {
+        background: $color-main;
+        padding: 2.2rem 2.6rem 3rem 3.6rem;
+        border-radius: 2rem;
+        margin-top: 2rem;
+
+        &__name {
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2rem;
+            color: $color-light;
+        }
+    }
+}
+
