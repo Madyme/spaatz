@@ -1,0 +1,62 @@
+.feedback {
+    display: flex;
+    justify-content: center;
+    padding: 14rem 0;
+    background: $color-dark;
+
+    &__title {
+        color: $color-light;
+    }
+
+    &__text {
+        width: 70rem;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 4.6rem;
+        color: $color-h4;
+        margin-top: 4.1rem;
+
+        &__span {
+            color: $color-light;
+        }
+    }
+
+    &__img {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+}
+
+.wrapper_feedback {
+    display: flex;
+
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    padding: 9rem 45.5rem 0 0;
+
+    &__title {
+        color: $color-light;
+    }
+
+    &__assess {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.9rem;
+        color: $color-h4;
+    }
+
+    &__star {
+        margin-right: 1.5rem;
+
+        &_last {
+            margin-right: 0;
+        }
+    }
+
+}

@@ -11,6 +11,10 @@ $color-graph: #161D2D;
     height: 7.2rem;
     box-sizing: border-box;
     text-transform: capitalize;
+
+    &_potential>span {
+        margin-right: 1.7rem;
+    }
 }
 
 .button_header {

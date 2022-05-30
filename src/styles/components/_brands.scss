@@ -1,0 +1,26 @@
+.brands {
+    display: flex;
+    justify-content: center;
+    padding: 14rem 0 18rem 0;
+
+    &__title {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.0rem;
+        line-height: 4.2rem;
+        color: $color-dark;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 6rem;
+    }
+}
+
+.wrapper_brands {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,48 @@
+.articles {
+    display: flex;
+    justify-content: center;padding-bottom: 16rem;
+
+    &__wrap {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 7.5rem;
+    }
+
+    &__title {
+        color: $color-dark;
+    }
+
+    $color-articles-text: #606060;
+
+    &__text {
+        color: $color-articles-text;
+        margin-top: 2.5rem;
+    }
+
+    &__button {
+        background: $color-main;
+        padding: 2.2rem 2.7rem 3rem 3.6rem;
+        border-radius: 2rem;
+        border: none;
+
+        &>span {
+            text-transform: capitalize;
+            color: $color-light;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.0rem;
+            line-height: 2.0rem;
+        }
+    }
+}
+
+.wrapper_articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    padding: 0 1.5rem;
+}

@@ -1,0 +1,28 @@
+.productivity {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14rem;
+
+    &__title {
+        text-align: center;
+        margin-top: 14rem;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        align-items: center;
+    }
+
+}
+
+.wrapper_productivity {
+    display: flex;
+    flex-direction: column;
+}
+
+.product__text {
+    color: $color-h4;
+    margin-top: 0;
+}

@@ -20,7 +20,7 @@ $color-additional: #f6f6f6;
 .block {
     display: flex;
     justify-content: space-between;
-    
+
     &-1 {
         margin-top: 16rem;
     }
@@ -29,12 +29,17 @@ $color-additional: #f6f6f6;
         align-items: center;
     }
 
+    &-3 {
+        margin-bottom: 16rem;
+    }
+
 }
 
 .important-tools {
     display: flex;
     flex-direction: column;
-    padding: 4rem;;
+    padding: 4rem;
+    ;
 
     &__icons {
         display: flex;
@@ -81,7 +86,8 @@ $color-additional: #f6f6f6;
     display: flex;
 
     &__article {
-        background: $color-graph;;
+        background: $color-graph;
+        ;
         border-radius: 0 3.3rem 3.3rem 0;
         margin-top: 4rem;
         padding-right: 4.9rem;

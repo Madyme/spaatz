@@ -5,11 +5,12 @@ html {
 
 $color-dark: #1B2534;
 $color-main: #29A0F5;
+$color-h4: #ABABAB;
 
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    // outline: 1px solid red;
 }
 
 body {
@@ -17,13 +18,13 @@ body {
 }
 
 h1 {
-   font-weight: 700;
-   color: $color-dark; 
-   text-transform: capitalize;
-   font-size: 8rem;
-   line-height: 10.4rem;
-   text-align: center;
-   margin-top: 14.7rem;
+    font-weight: 700;
+    color: $color-dark;
+    text-transform: capitalize;
+    font-size: 8rem;
+    line-height: 10.4rem;
+    text-align: center;
+    margin-top: 14.7rem;
 }
 
 .span {
@@ -53,3 +54,12 @@ h5 {
     color: $color-dark;
 }
 
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 5.2rem;
+    color: $color-h4;
+    text-transform: capitalize;
+    margin-top: 2.8rem;
+}
